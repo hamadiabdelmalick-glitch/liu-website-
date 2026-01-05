@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contact — LIU University</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <div class="brand">
+          <div class="logo" aria-hidden="true"></div>
+          <span class="brand-text" data-i18n="header.title">LIU University</span>
+        </div>
+
+        <button id="menu-toggle" class="menu-toggle" aria-label="Toggle menu">☰</button>
+
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="index.html" data-i18n="nav.home">Home</a>
+          <a href="about.html" data-i18n="nav.about">About</a>
+          <a href="programs.html" data-i18n="nav.programs">Programs</a>
+          <a href="admissions.html" data-i18n="nav.admissions">Admissions</a>
+          <a href="contact.html" class="active" data-i18n="nav.contact">Contact</a>
+        </nav>
+
+        <div class="nav-actions">
+          <button id="lang-toggle" class="lang-toggle" aria-label="Toggle language">🇫🇷 <span id="lang-label">FR</span></button>
+        </div>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="content">
+        <h1 data-i18n="contact.heading">Contact</h1>
+        <p data-i18n="contact.p">Email us at <a href="mailto:info@liu.edu">info@liu.edu</a> or call +1 (800) 555-0123.</p>
+
+        <div class="split">
+          <div>
+            <h2 data-i18n="contact.visit.title">Visit Campus</h2>
+            <p data-i18n="contact.visit.p">Campus tours are available year-round. Schedule a visit using the link below.</p>
+            <p><a href="#contact-form" id="schedule-visit-btn" class="btn" data-i18n="contact.visit.cta">Schedule a Visit</a></p>
+
+            <h2 data-i18n="contact.hours.title">Office Hours</h2>
+            <p data-i18n="contact.hours.p">Mon–Fri: 9:00 AM – 5:00 PM</p>
+          </div>
+
+          <div>
+            <h2 data-i18n="contact.form.title">Get in Touch</h2>
+            <form id="contact-form" class="contact-form" action="#" method="post">
+              <label for="name" data-i18n="contact.form.name">Name</label>
+              <input id="name" name="name" type="text" />
+
+              <label for="email" data-i18n="contact.form.email">Email</label>
+              <input id="email" name="email" type="email" />
+
+              <label for="visit-date" data-i18n="contact.form.date">Preferred visit date</label>
+              <input id="visit-date" name="visit_date" type="date" />
+
+              <label for="message" data-i18n="contact.form.message">Message</label>
+              <textarea id="message" name="message"></textarea>
+
+              <p><button class="btn" type="submit" data-i18n="contact.form.submit">Send Message</button></p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div class="col">
+          <strong data-i18n="footer.about.title">LIU University</strong>
+          <p data-i18n="footer.about.p">A community committed to learning and discovery.</p>
+        </div>
+        <div class="col">
+          <strong data-i18n="footer.links.title">Quick Links</strong>
+          <ul>
+            <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+            <li><a href="programs.html" data-i18n="nav.programs">Programs</a></li>
+            <li><a href="admissions.html" data-i18n="nav.admissions">Admissions</a></li>
+          </ul>
+        </div>
+        <div class="col">
+          <strong data-i18n="footer.contact.title">Contact</strong>
+          <p data-i18n="footer.contact.p">info@liu.edu<br/>+1 (800) 555-0123</p>
+        </div>
+      </div>
+      <div class="container footer-bottom"><small data-i18n="footer.text">© 2026 LIU University — All rights reserved.</small></div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

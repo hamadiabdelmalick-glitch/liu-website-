@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>LIU University</title>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<header class="site-header">
+			<div class="container nav-wrap">
+				<div class="brand">
+					<div class="logo" aria-hidden="true"></div>
+					<span class="brand-text" data-i18n="header.title">LIU University</span>
+				</div>
+
+				<button id="menu-toggle" class="menu-toggle" aria-label="Toggle menu">☰</button>
+
+				<nav class="main-nav" aria-label="Main navigation">
+							<a href="index.html" data-i18n="nav.home">Home</a>
+							<a href="about.html" data-i18n="nav.about">About</a>
+							<a href="programs.html" data-i18n="nav.programs">Programs</a>
+							<a href="admissions.html" data-i18n="nav.admissions">Admissions</a>
+							<a href="contact.html" data-i18n="nav.contact">Contact</a>
+						</nav>
+
+				<div class="nav-actions">
+					<button id="lang-toggle" class="lang-toggle" aria-label="Toggle language">🇫🇷 <span id="lang-label">FR</span></button>
+				</div>
+			</div>
+		</header>
+
+		<main class="container">
+			<section class="hero">
+				<div class="hero-inner">
+					<div class="hero-content">
+						<h1 data-i18n="hero.heading">Welcome to LIU University</h1>
+						<p data-i18n="hero.sub">Excellence in teaching, research and community engagement.</p>
+						<p class="cta"><a href="admissions.html" class="btn" data-i18n="hero.cta">Apply Now</a></p>
+					</div>
+					<div class="hero-stats">
+						<div class="stat"><strong>30+</strong><span data-i18n="stats.departments">Departments</span></div>
+						<div class="stat"><strong>15k</strong><span data-i18n="stats.students">Students</span></div>
+						<div class="stat"><strong>200+</strong><span data-i18n="stats.faculty">Faculty</span></div>
+					</div>
+				</div>
+			</section>
+
+			<section id="about" class="content" aria-labelledby="about-heading">
+				<h2 id="about-heading" data-i18n="about.heading">About LIU</h2>
+				<p data-i18n="about.p">LIU University is a vibrant institution committed to academic excellence and student success.</p>
+				<p data-i18n="about.p2">We offer undergraduate and graduate programs, research opportunities, and a supportive community.</p>
+			</section>
+
+			<section id="programs" class="content programs">
+				<h2 data-i18n="programs.heading">Programs</h2>
+				<div class="grid">
+					<article class="card">
+						<h3 data-i18n="programs.1">Computer Science</h3>
+						<p data-i18n="programs.1.p">Strong focus on AI, systems and software engineering.</p>
+					</article>
+					<article class="card">
+						<h3 data-i18n="programs.2">Business Administration</h3>
+						<p data-i18n="programs.2.p">Prepare for leadership in global organizations.</p>
+					</article>
+					<article class="card">
+						<h3 data-i18n="programs.3">Environmental Studies</h3>
+						<p data-i18n="programs.3.p">Interdisciplinary approaches to sustainability.</p>
+					</article>
+					<article class="card">
+						<h3 data-i18n="programs.4">Design & Media</h3>
+						<p data-i18n="programs.4.p">Creative practice with real-world projects.</p>
+					</article>
+				</div>
+			</section>
+
+			<section class="content news-events">
+				<div class="grid-2">
+					<div>
+						<h2 data-i18n="news.heading">News</h2>
+						<article class="news-item">
+							<h4 data-i18n="news.1.title">LIU Launches New AI Lab</h4>
+							<p data-i18n="news.1.p">A new interdisciplinary lab focusing on responsible AI research.</p>
+						</article>
+						<article class="news-item">
+							<h4 data-i18n="news.2.title">Scholarships Awarded</h4>
+							<p data-i18n="news.2.p">Over 200 scholarships awarded to outstanding applicants.</p>
+						</article>
+					</div>
+
+					<div>
+						<h2 data-i18n="events.heading">Upcoming Events</h2>
+						<ul class="events-list">
+							<li><strong>Jan 22</strong> — <span data-i18n="events.1">Open Day</span></li>
+							<li><strong>Feb 10</strong> — <span data-i18n="events.2">Graduate Expo</span></li>
+						</ul>
+					</div>
+				</div>
+			</section>
+
+			<section class="content faculty">
+				<h2 data-i18n="faculty.heading">Faculty Spotlight</h2>
+				<div class="grid">
+					<div class="faculty-card">
+						<div class="avatar"></div>
+						<h4 data-i18n="faculty.1.name">Dr. Alice Martin</h4>
+						<p data-i18n="faculty.1.role">Professor of Computer Science</p>
+					</div>
+					<div class="faculty-card">
+						<div class="avatar"></div>
+						<h4 data-i18n="faculty.2.name">Dr. Omar Khan</h4>
+						<p data-i18n="faculty.2.role">Associate Professor of Environmental Studies</p>
+					</div>
+					<div class="faculty-card">
+						<div class="avatar"></div>
+						<h4 data-i18n="faculty.3.name">Dr. Maria Lopez</h4>
+						<p data-i18n="faculty.3.role">Lecturer, Business School</p>
+					</div>
+				</div>
+			</section>
+
+			<section id="admissions" class="content">
+				<h2 data-i18n="admissions.heading">Admissions</h2>
+				<p data-i18n="admissions.p">Learn about admission requirements, deadlines and how to apply.</p>
+				<p><a href="admissions.html" class="btn" data-i18n="admissions.cta">Start Your Application</a></p>
+			</section>
+
+			<section id="contact" class="content">
+				<h2 data-i18n="contact.heading">Contact</h2>
+				<p data-i18n="contact.p">Email us at <a href="mailto:info@liu.edu">info@liu.edu</a> or call +1 (800) 555-0123.</p>
+			</section>
+		</main>
+
+		<footer class="site-footer">
+			<div class="container footer-grid">
+				<div class="col">
+					<strong data-i18n="footer.about.title">LIU University</strong>
+					<p data-i18n="footer.about.p">A community committed to learning and discovery.</p>
+				</div>
+				<div class="col">
+					<strong data-i18n="footer.links.title">Quick Links</strong>
+					<ul>
+						<li><a href="#" data-i18n="nav.home">Home</a></li>
+						<li><a href="#programs" data-i18n="nav.programs">Programs</a></li>
+						<li><a href="#admissions" data-i18n="nav.admissions">Admissions</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<strong data-i18n="footer.contact.title">Contact</strong>
+					<p data-i18n="footer.contact.p">info@liu.mr<br/>+222 45 25 18 88</p>
+				</div>
+			</div>
+			<div class="container footer-bottom"><small data-i18n="footer.text">© 2026 LIU University — All rights reserved.</small></div>
+		</footer>
+
+		<script src="script.js"></script>
+	</body>
+</html>

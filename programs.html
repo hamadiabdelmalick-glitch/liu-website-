@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Programs — LIU University</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <div class="brand">
+          <div class="logo" aria-hidden="true"></div>
+          <span class="brand-text" data-i18n="header.title">LIU University</span>
+        </div>
+
+        <button id="menu-toggle" class="menu-toggle" aria-label="Toggle menu">☰</button>
+
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="index.html" data-i18n="nav.home">Home</a>
+          <a href="about.html" data-i18n="nav.about">About</a>
+          <a href="programs.html" class="active" data-i18n="nav.programs">Programs</a>
+          <a href="admissions.html" data-i18n="nav.admissions">Admissions</a>
+          <a href="contact.html" data-i18n="nav.contact">Contact</a>
+        </nav>
+
+        <div class="nav-actions">
+          <button id="lang-toggle" class="lang-toggle" aria-label="Toggle language">🇫🇷 <span id="lang-label">FR</span></button>
+        </div>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="content">
+        <h1 data-i18n="programs.heading">Programs</h1>
+        <p data-i18n="programs.intro">LIU offers a range of undergraduate and graduate programs designed to prepare students for careers and research.</p>
+
+        <div class="grid">
+          <article class="card">
+            <h3 data-i18n="programs.1">Computer Science</h3>
+            <p data-i18n="programs.1.p">Strong focus on AI, systems and software engineering.</p>
+            <ul>
+              <li data-i18n="programs.1.degree">BSc / MSc / PhD</li>
+              <li data-i18n="programs.1.courses">Intro to Programming; Data Structures; Machine Learning; Systems</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3 data-i18n="programs.2">Business Administration</h3>
+            <p data-i18n="programs.2.p">Prepare for leadership in global organizations.</p>
+            <ul>
+              <li data-i18n="programs.2.degree">BBA / MBA</li>
+              <li data-i18n="programs.2.courses">Accounting; Marketing; Strategy; Entrepreneurship</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3 data-i18n="programs.3">Environmental Studies</h3>
+            <p data-i18n="programs.3.p">Interdisciplinary approaches to sustainability.</p>
+            <ul>
+              <li data-i18n="programs.3.degree">BA / MSc</li>
+              <li data-i18n="programs.3.courses">Climate Science; Policy; GIS; Conservation</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3 data-i18n="programs.4">Design & Media</h3>
+            <p data-i18n="programs.4.p">Creative practice with real-world projects.</p>
+            <ul>
+              <li data-i18n="programs.4.degree">BA / BFA</li>
+              <li data-i18n="programs.4.courses">Visual Design; UX; Motion Graphics; Portfolio</li>
+            </ul>
+          </article>
+        </div>
+
+        <hr />
+
+        <section class="program-detail" id="cs">
+          <h2 data-i18n="programs.cs.title">Computer Science — Overview</h2>
+          <p data-i18n="programs.cs.desc">The Computer Science program emphasizes foundational theory and hands-on experience in software development, systems and AI research.</p>
+          <h3 data-i18n="programs.cs.courses.title">Sample Courses</h3>
+          <ul>
+            <li data-i18n="programs.cs.course1">Algorithms</li>
+            <li data-i18n="programs.cs.course2">Machine Learning</li>
+            <li data-i18n="programs.cs.course3">Operating Systems</li>
+          </ul>
+        </section>
+
+        <section class="program-detail" id="business">
+          <h2 data-i18n="programs.bus.title">Business Administration — Overview</h2>
+          <p data-i18n="programs.bus.desc">Focuses on leadership, analytics and innovation; internships and industry projects are integral.</p>
+        </section>
+
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div class="col">
+          <strong data-i18n="footer.about.title">LIU University</strong>
+          <p data-i18n="footer.about.p">A community committed to learning and discovery.</p>
+        </div>
+        <div class="col">
+          <strong data-i18n="footer.links.title">Quick Links</strong>
+          <ul>
+            <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+            <li><a href="programs.html" data-i18n="nav.programs">Programs</a></li>
+            <li><a href="admissions.html" data-i18n="nav.admissions">Admissions</a></li>
+          </ul>
+        </div>
+        <div class="col">
+          <strong data-i18n="footer.contact.title">Contact</strong>
+          <p data-i18n="footer.contact.p">info@liu.edu<br/>+1 (800) 555-0123</p>
+        </div>
+      </div>
+      <div class="container footer-bottom"><small data-i18n="footer.text">© 2026 LIU University — All rights reserved.</small></div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
